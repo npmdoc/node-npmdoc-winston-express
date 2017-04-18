@@ -1,0 +1,154 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/ifit/winston-express">winston-express (v0.1.1)</a>
+</h1>
+<h4>Express middleware to let you use winston from the browser.</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.winston-express">module winston-express</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.winston-express.winston-express">
+            function <span class="apidocSignatureSpan"></span>winston-express
+            <span class="apidocSignatureSpan">(app, _winston)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.winston-express.toString">
+            function <span class="apidocSignatureSpan">winston-express.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.winston-express.toString">module winston-express.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.winston-express.toString.toString">
+            function <span class="apidocSignatureSpan">winston-express.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.winston-express" id="apidoc.module.winston-express">module winston-express</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.winston-express.winston-express" id="apidoc.element.winston-express.winston-express">
+        function <span class="apidocSignatureSpan"></span>winston-express
+        <span class="apidocSignatureSpan">(app, _winston)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function helpExpress(app, _winston) {
+  winston = _winston;
+  jsClient = jsClient.replace('{LEVELS:LEVELS}', JSON.stringify(winston.levels));
+  app.get('/winston/client.js', getClient);
+  app.get('/winston/log/:level/:message/:meta?', logMessage);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.winston-express.toString" id="apidoc.element.winston-express.toString">
+        function <span class="apidocSignatureSpan">winston-express.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.winston-express.toString" id="apidoc.module.winston-express.toString">module winston-express.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.winston-express.toString.toString" id="apidoc.element.winston-express.toString.toString">
+        function <span class="apidocSignatureSpan">winston-express.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
