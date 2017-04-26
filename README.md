@@ -1,4 +1,7 @@
-# api documentation for  [winston-express (v0.1.1)](https://github.com/ifit/winston-express)  [![npm package](https://img.shields.io/npm/v/npmdoc-winston-express.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-winston-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-winston-express.svg)](https://travis-ci.org/npmdoc/node-npmdoc-winston-express)
+# npmdoc-winston-express
+
+#### basic api documentation for  [winston-express (v0.1.1)](https://github.com/ifit/winston-express)  [![npm package](https://img.shields.io/npm/v/npmdoc-winston-express.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-winston-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-winston-express.svg)](https://travis-ci.org/npmdoc/node-npmdoc-winston-express)
+
 #### Express middleware to let you use winston from the browser.
 
 [![NPM](https://nodei.co/npm/winston-express.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/winston-express)
@@ -58,7 +61,8 @@
         "type": "git",
         "url": "git://github.com/ifit/winston-express.git"
     },
-    "version": "0.1.1"
+    "version": "0.1.1",
+    "bin": {}
 }
 ```
 
